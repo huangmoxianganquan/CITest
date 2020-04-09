@@ -1,7 +1,7 @@
 language: objective-c
-xcode_project: 003---CI/003---CI.xcodeproj 
-xcode_scheme: 003---CI
-osx_image: xcode9.4
+xcode_project: CITest.xcodeproj
+xcode_scheme: CITest
+osx_image: xcode11.3
 
 script:
 - set -o pipefail
