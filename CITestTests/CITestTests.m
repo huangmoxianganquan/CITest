@@ -30,7 +30,7 @@
     NSLog(@"hello CI");
     
     int a = 10;
-    int b = 10;
+    int b = 20;
     
     XCTAssertEqual(a, b);
 }
