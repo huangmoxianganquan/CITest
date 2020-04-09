@@ -25,6 +25,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    NSLog(@"hello word");
+    NSLog(@"hello CI");
+    
+    int a = 10;
+    int b = 20;
+    
+    XCTAssertEqual(a, b);
 }
 
 - (void)testPerformanceExample {
